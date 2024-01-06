@@ -14,7 +14,7 @@ export const MultipleCustomHooks = () => {
   
 // console.log({data, isLoading, hasError})
 
-const {quote, author} = !!data && data[0];
+const {author, quote} = !!data && data[0];
 
   return (
     <>
